@@ -44,7 +44,7 @@ namespace Gaston11276.Spawnmenu.Client
 			uiColumn.SetOrientation(Orientation.Vertical);
 			uiColumn.SetPadding(new UiRectangle(defaultPadding));
 			uiColumn.SetGravity(gravity);
-			uiColumn.SetFlags(UiElement.TRANSPARENT);
+			uiColumn.SetFlags(TRANSPARENT);
 			uiPanel.AddElement(uiColumn);
 
 			if (label != null)
@@ -52,10 +52,10 @@ namespace Gaston11276.Spawnmenu.Client
 				Textbox header = new Textbox();
 				header.SetPadding(new UiRectangle(defaultPadding));
 				header.SetText(label);
-				header.SetFlags(UiElement.TRANSPARENT);
+				header.SetFlags(TRANSPARENT);
 				if (label.Length == 0)
 				{
-					header.SetTextFlags(UiElement.TRANSPARENT);
+					header.SetTextFlags(TRANSPARENT);
 				}
 				uiColumn.AddElement(header);
 			}
@@ -104,7 +104,7 @@ namespace Gaston11276.Spawnmenu.Client
 			Textbox uiButtonClose= new Textbox();
 			uiButtonClose.SetText("Close");
 			uiButtonClose.SetPadding(new UiRectangle(defaultPadding));
-			uiButtonClose.SetProperties(UiElement.CANFOCUS);
+			uiButtonClose.SetProperties(CANFOCUS);
 			uiButtonClose.RegisterOnLMBRelease(Close);
 			WindowManager.RegisterOnMouseButtonCallback(uiButtonClose.OnMouseButton);
 			WindowManager.RegisterOnMouseMoveCallback(uiButtonClose.OnMouseMove);
@@ -113,7 +113,7 @@ namespace Gaston11276.Spawnmenu.Client
 			Textbox uiButtonSpawn = new Textbox();
 			uiButtonSpawn.SetText("Spawn");
 			uiButtonSpawn.SetPadding(new UiRectangle(defaultPadding));
-			uiButtonSpawn.SetProperties(UiElement.CANFOCUS);
+			uiButtonSpawn.SetProperties(CANFOCUS);
 			uiButtonSpawn.RegisterOnLMBRelease(Respawn);
 			WindowManager.RegisterOnMouseButtonCallback(uiButtonSpawn.OnMouseButton);
 			WindowManager.RegisterOnMouseMoveCallback(uiButtonSpawn.OnMouseMove);

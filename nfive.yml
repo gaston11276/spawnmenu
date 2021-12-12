@@ -8,3 +8,7 @@ client:
     - Gaston11276.Spawnmenu.Client
 dependencies:
   gaston11276/fivemui: ^0.1.0
+repositories:
+  - name: gaston11276/fivemui
+    type: local
+    path: C:\Users\johan\source\repos\NFive\gaston11276\Fivemui
