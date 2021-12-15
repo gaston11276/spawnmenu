@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Gaston11276.SimpleUi;
 using Gaston11276.Fivemui;
 
 namespace Gaston11276.Spawnmenu.Client
