@@ -29,7 +29,7 @@ namespace Gaston11276.Spawnmenu.Client
 			windowSpawnLocation.SetHotkey(InputControl.SelectCharacterMichael);
 			windowSpawnLocation.RegisterOnSpawnCallback(OnSpawn);
 
-			windowSpawnLocation.Open();
+			//windowSpawnLocation.Open();
 			await Delay(0);
 		}
 

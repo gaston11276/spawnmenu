@@ -73,6 +73,9 @@ namespace Gaston11276.Spawnmenu.Client
 
 			Textbox header = new Textbox();
 			header.SetText("Spawn Location");
+			header.SetFont(Font.Pricedown);
+			header.SetFontSize(0.4f);
+			header.SetTextFlags(UiElementTextbox.TEXT_OUTLINE);
 			header.SetFlags(TRANSPARENT);
 			header.SetPadding(new UiRectangle(defaultPadding));
 			AddElement(header);
@@ -103,6 +106,7 @@ namespace Gaston11276.Spawnmenu.Client
 
 			Textbox uiButtonClose= new Textbox();
 			uiButtonClose.SetText("Close");
+			uiButtonClose.SetFont(Font.CharletComprimeColonge);
 			uiButtonClose.SetPadding(new UiRectangle(defaultPadding));
 			uiButtonClose.SetProperties(CANFOCUS);
 			uiButtonClose.RegisterOnLMBRelease(Close);
@@ -112,6 +116,7 @@ namespace Gaston11276.Spawnmenu.Client
 
 			Textbox uiButtonSpawn = new Textbox();
 			uiButtonSpawn.SetText("Spawn");
+			uiButtonSpawn.SetFont(Font.CharletComprimeColonge);
 			uiButtonSpawn.SetPadding(new UiRectangle(defaultPadding));
 			uiButtonSpawn.SetProperties(CANFOCUS);
 			uiButtonSpawn.RegisterOnLMBRelease(Respawn);
