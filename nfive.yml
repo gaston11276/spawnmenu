@@ -8,5 +8,6 @@ client:
     - Gaston11276.Spawnmenu.Client
   files:
     - SimpleUi.dll
+    - Gaston11276.Fivemui.Client.net.dll
 dependencies:
   gaston11276/fivemui: ^1.0.0

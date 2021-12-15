@@ -24,7 +24,6 @@ namespace Gaston11276.Spawnmenu.Client
 		protected override void OnOpen()
 		{
 			Game.Player.CanControlCharacter = false;
-			//API.FreezePedCameraRotation(Game.PlayerPed.Handle);
 			base.OnOpen();
 		}
 
